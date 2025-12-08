@@ -33,4 +33,15 @@
 </div>
 
 </body>
+<script>
+    function setConnecter(connected){
+    document.getElementById('sendMessage').disabled = !connected;
+
+    function connect(){
+    var socket =new SockJS('/chat);
+    stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (frame) {
+        setConnected(true);
+    });
+</script>
 </html>
