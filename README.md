@@ -1,11 +1,11 @@
-# 📩 Real-Time Chat Application
+# Real-Time Chat Application
 
 This is a real-time chat application built with **Spring Boot**, **WebSocket (STOMP)**, **SockJS**, and a simple **HTML/JavaScript** frontend.  
 It allows users to connect, enter their name, send messages, and see chat updates instantly without refreshing the page.
 
 --- 
 
-## 🚀 Features
+## Features
 
 - Real-time messaging using WebSocket + STOMP  
 - Multiple users can chat at the same time  
@@ -15,7 +15,7 @@ It allows users to connect, enter their name, send messages, and see chat update
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### **Backend**
 - Java 17+
@@ -40,10 +40,10 @@ It allows users to connect, enter their name, send messages, and see chat update
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 **1. Clone the repository**
-## 🔗 GitHub Repository 
+##  GitHub Repository 
 git clone https://github.com/FrehiwetZ/Advanced-Programming.git 
 ***2. Open the project in IntelliJ**
 IntelliJ will automatically download the dependencies (Maven or Gradle).
